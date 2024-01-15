@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+    /* products */
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header-section {
+      flex-direction: column;
+      margin-left: 50px;
+    }
+}
+  
+    .items-container {
+      flex-direction: column;
+      margin-left: 50px;
+      gap: 20px;
+    }
+    .hlw{
+        flex-direction: column;
+        width: 100%;
+    }
+   .container{
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+    }
